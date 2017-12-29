@@ -1,0 +1,195 @@
+.margin_right_10{
+    margin-right: 10px;
+}
+
+
+
+
+/*
+*New Color scheme 
+*/
+.white-body{
+	background-color: #F6F6F6;
+	color: #333;
+}
+
+.red-body{
+	background-color: #000;
+	color: #333;
+}
+
+/*
+* portlet changes
+*/
+.portlet.light.bordered{
+	border-radius : .28571429rem !important;
+	border: 1px solid rgba(34,36,38,.15) !important;
+}
+
+/*
+* General buttons css
+*/
+
+.btn{
+	color: #fff;
+	border: 0px;
+	border-radius: .28571429rem!important;
+	padding: 10px 20px;
+}
+.btn.btn-primary-secondary{
+	background-color: transparent;
+	color: #45adf4!important;
+	box-shadow: 0 0 0 1px #45adf4 inset !important;
+}
+.btn.btn-primary-secondary:hover{
+	background-color: #45adf4!important;
+	color: #fff!important;
+	box-shadow: 0 0 0 1px #45adf4 inset !important;
+}
+.btn.btn-primary{
+	background-color: #45adf4!important;
+}
+
+.btn.ytelblue{
+	background-color: #069!important;
+}
+
+.btn.ytellightblue{
+	background-color: #0d71d3!important;
+}
+
+.btn.ytelred{
+	background-color: #ec2c26!important;
+}
+
+.btn.ytelorange{
+	background-color: #f90!important;
+}
+
+.btn.ytelgreen{
+	background-color: #14961d!important;
+}
+
+.btn.ytelgrey{
+	background-color: #848484!important;
+}
+
+.btn.ytelyellow{
+	background-color: #ffff02!important;
+}
+
+
+/*
+* Login file color scheme changes
+*/
+
+.login {
+    background-color: #F6F6F6!important;
+}
+
+.login .content{
+	border : 1px solid #dbdbdb;
+}
+
+.login .content .form-control{
+	background-color : #fff;
+}
+
+/*
+* Header menu css changes
+*/
+
+.page-header.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #666666;
+}
+
+.page-header.navbar .menu-toggler>span{
+	background :#000 !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-toggler,
+  .page-sidebar .sidebar-toggler {
+    background: #000 !important; }
+
+/*
+* side bar menu css changes
+*/
+
+.page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover {
+    background-color: #003366;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a, 
+.page-sidebar .page-sidebar-menu .sub-menu > li.open > a, 
+.page-sidebar .page-sidebar-menu .sub-menu > li:hover > a,
+.page-sidebar .page-sidebar-menu > li:hover > a, 
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a, 
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a, 
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a{
+	background-color: #004284 !important;
+	background: #004284 none repeat scroll 0 0 !important;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a,
+    .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a,
+    .page-sidebar .page-sidebar-menu .sub-menu > li.open > a,
+    .page-sidebar .page-sidebar-menu .sub-menu > li.active > a {
+      background: #2995ED !important; }
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu.page-sidebar-menu-light > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu.page-sidebar-menu-light > li.active.open > a,
+    .page-sidebar .page-sidebar-menu.page-sidebar-menu-light > li.active > a,
+    .page-sidebar .page-sidebar-menu.page-sidebar-menu-light > li.active.open > a {
+      background: #2995ED;
+      border-left: 4px solid #36c6d3;
+      color: #f1f1f1; }
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu.page-sidebar-menu-light > li .sub-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu.page-sidebar-menu-light > li .sub-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu.page-sidebar-menu-light > li .sub-menu > li.active > a,
+      .page-sidebar .page-sidebar-menu.page-sidebar-menu-light > li .sub-menu > li:hover > a,
+      .page-sidebar .page-sidebar-menu.page-sidebar-menu-light > li .sub-menu > li.open > a,
+      .page-sidebar .page-sidebar-menu.page-sidebar-menu-light > li .sub-menu > li.active > a {
+        background: #2995ED !important; }
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle:hover {
+          background-color: #2995ED !important; } }
+
+
+.page-header.navbar .menu-toggler > span, .page-header.navbar .menu-toggler > span::after, .page-header.navbar .menu-toggler > span::before {
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    top: -6px;
+    transition: all 0.3s ease 0s;
+    width: 19px;
+}
+
+.page-header.navbar .menu-toggler > span, .page-header.navbar .menu-toggler > span::after, .page-header.navbar .menu-toggler > span::before, .page-header.navbar .menu-toggler > span:hover, .page-header.navbar .menu-toggler > span:hover::after, .page-header.navbar .menu-toggler > span:hover::before {
+    background: #000 none repeat scroll 0 0 !important;
+}
+
+.page-container-bg-solid .page-content {
+    background: #eef1f5 none repeat scroll 0 0;
+}
+
+
+/*
+ * header user name
+*/
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i {
+    color: #003366;
+}
+
+.img-circle {
+    border: 2px solid #003366 !important;
+}
+
+.logoimg{
+   width: 17%;
+}
+.footerchange{
+  margin-left: 41%;
+  color: white;
+}
+  .dashboardlogo{
+    width: 138px;
+    margin-top: 10px;
+  }
